@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700|Zilla+Slab:400,600';
+/* line 6, Users/achoukah/Documents/Tool_Shed/01-locate-productions/01-LOC-website-2017/03-visual/04-html/05-mobile-gallery-page/scss/partials/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  border: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 30, Users/achoukah/Documents/Tool_Shed/01-locate-productions/01-LOC-website-2017/03-visual/04-html/05-mobile-gallery-page/scss/partials/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 34, Users/achoukah/Documents/Tool_Shed/01-locate-productions/01-LOC-website-2017/03-visual/04-html/05-mobile-gallery-page/scss/partials/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 37, Users/achoukah/Documents/Tool_Shed/01-locate-productions/01-LOC-website-2017/03-visual/04-html/05-mobile-gallery-page/scss/partials/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 40, Users/achoukah/Documents/Tool_Shed/01-locate-productions/01-LOC-website-2017/03-visual/04-html/05-mobile-gallery-page/scss/partials/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 43, Users/achoukah/Documents/Tool_Shed/01-locate-productions/01-LOC-website-2017/03-visual/04-html/05-mobile-gallery-page/scss/partials/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 48, Users/achoukah/Documents/Tool_Shed/01-locate-productions/01-LOC-website-2017/03-visual/04-html/05-mobile-gallery-page/scss/partials/_reset.scss */
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+/* line 52, Users/achoukah/Documents/Tool_Shed/01-locate-productions/01-LOC-website-2017/03-visual/04-html/05-mobile-gallery-page/scss/partials/_reset.scss */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+/* line 58, Users/achoukah/Documents/Tool_Shed/01-locate-productions/01-LOC-website-2017/03-visual/04-html/05-mobile-gallery-page/scss/partials/_reset.scss */
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* line 61, Users/achoukah/Documents/Tool_Shed/01-locate-productions/01-LOC-website-2017/03-visual/04-html/05-mobile-gallery-page/scss/partials/_reset.scss */
+img {
+  display: block;
+}
+
+/* line 65, Users/achoukah/Documents/Tool_Shed/01-locate-productions/01-LOC-website-2017/03-visual/04-html/05-mobile-gallery-page/scss/partials/_reset.scss */
+form * {
+  -webkit-appearance: none;
+  margin: 0;
+  display: block;
+  outline: none;
+  border: none;
+}
+
+/* line 1, Users/achoukah/Documents/Tool_Shed/01-locate-productions/01-LOC-website-2017/03-visual/04-html/05-mobile-gallery-page/scss/partials/_structure.scss */
+html {
+  color: #1d1c1b;
+  background-color: #fff;
+}
+
+/* line 6, Users/achoukah/Documents/Tool_Shed/01-locate-productions/01-LOC-website-2017/03-visual/04-html/05-mobile-gallery-page/scss/partials/_header.scss */
+.site-branding a {
+  text-indent: -9999px;
+  display: block;
+}
+
+/* line 5, Users/achoukah/Documents/Tool_Shed/01-locate-productions/01-LOC-website-2017/03-visual/04-html/05-mobile-gallery-page/scss/partials/_typography.scss */
+html {
+  font-size: 1em;
+}
+
+/* line 7, Users/achoukah/Documents/Tool_Shed/01-locate-productions/01-LOC-website-2017/03-visual/04-html/05-mobile-gallery-page/scss/partials/_typography.scss */
+body {
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+/* line 13, Users/achoukah/Documents/Tool_Shed/01-locate-productions/01-LOC-website-2017/03-visual/04-html/05-mobile-gallery-page/scss/partials/_typography.scss */
+p {
+  margin-bottom: 1.3em;
+}
+
+/* line 15, Users/achoukah/Documents/Tool_Shed/01-locate-productions/01-LOC-website-2017/03-visual/04-html/05-mobile-gallery-page/scss/partials/_typography.scss */
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+/* line 21, Users/achoukah/Documents/Tool_Shed/01-locate-productions/01-LOC-website-2017/03-visual/04-html/05-mobile-gallery-page/scss/partials/_typography.scss */
+h1 {
+  margin-top: 0;
+  font-size: 1.602em;
+}
+
+/* line 26, Users/achoukah/Documents/Tool_Shed/01-locate-productions/01-LOC-website-2017/03-visual/04-html/05-mobile-gallery-page/scss/partials/_typography.scss */
+h2 {
+  font-size: 1.424em;
+}
+
+/* line 28, Users/achoukah/Documents/Tool_Shed/01-locate-productions/01-LOC-website-2017/03-visual/04-html/05-mobile-gallery-page/scss/partials/_typography.scss */
+h3 {
+  font-size: 1.266em;
+}
+
+/* line 30, Users/achoukah/Documents/Tool_Shed/01-locate-productions/01-LOC-website-2017/03-visual/04-html/05-mobile-gallery-page/scss/partials/_typography.scss */
+h4 {
+  font-size: 1.125em;
+}
+
+/* line 32, Users/achoukah/Documents/Tool_Shed/01-locate-productions/01-LOC-website-2017/03-visual/04-html/05-mobile-gallery-page/scss/partials/_typography.scss */
+small, .font_small {
+  font-size: 0.889em;
+}
+/*# sourceMappingURL=style.css.map */
